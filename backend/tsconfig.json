@@ -1,0 +1,38 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./", // 这里需要配置
+    "paths": {
+      "@/*": ["./src/*"] // 这里需要配置
+    },
+    "target": "ES2020",
+    "useDefineForClassFields": true,
+    "module": "ESNext",
+    "lib": ["ES2020", "DOM", "DOM.Iterable"],
+    "skipLibCheck": true,
+    "types": ["element-plus/global"],
+
+    /* Bundler mode */
+    "moduleResolution": "bundler",
+    "allowImportingTsExtensions": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "jsx": "preserve",
+
+    /* Linting */
+    "strict": true, // 开启所有的严格类型检查
+    "noUnusedLocals": true, //是否检查未使用的局部变量
+    "noUnusedParameters": true, // 是否检查未使用的参数
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitAny": false //不允许隐式的any类型
+  },
+  "include": [
+    "src/**/*.ts",
+    "src/**/*.tsx",
+    "src/**/*.vue",
+    "src/store/user/index.js",
+    "src/main.ts",
+    "src/utils/getRoutes.js"
+, "src/store/setting.js", "src/utils/request.js", "src/api/user/index.js"  ],
+  "references": [{ "path": "./tsconfig.node.json" }]
+}

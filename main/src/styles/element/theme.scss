@@ -1,0 +1,32 @@
+// 更换主题后
+@forward 'element-plus/theme-chalk/src/common/var.scss' with (
+  $colors: (
+    'primary': (
+      'base': #2559ec,
+    ),
+    'success': (
+      'base': #30bf13,
+    ),
+    'warning': (
+      'base': #ff9326,
+    ),
+    'danger': (
+      'base': #ff2d00,
+    ),
+    'error': (
+      'base': #ff0000,
+    ),
+    'info': (
+      'base': #909399,
+    ),
+  ),
+  // $text-color: (
+  //   (
+  //     'primary': #191b1c,
+  //     'regular': #666666,
+  //     'secondary': #ccc,
+  //     'placeholder': #d4d6d9,
+  //     'disabled': #c0c4cc
+  //   ),
+  // )
+);

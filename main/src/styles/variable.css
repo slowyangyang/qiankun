@@ -1,0 +1,21 @@
+/**
+*@description: 全局css变量
+*/
+:root {
+  /* ex: --layout_side_width: 200px; */
+  /* 底层背景 */
+  --mp-bg-color-page: #f7f7f9;
+  --sider_logo_size: 60px;
+  --layout-header-height: 64px;
+
+  /* element */
+  --main-bg-color-page: #f7f7f9;
+  --main-text-color-primary: #191b1c;
+  --main-text-color-regular: #666666;
+  --main-text-color-disabled: #c0c4cc;
+  --main-text-color-placeholder: #d4d6d9;
+}
+html.dark {
+  /* 黑色主题 */
+  --mp-menu-hover-bg-color: #18222c;
+}
