@@ -15,7 +15,7 @@ export default defineConfig(({ mode, command }) => {
   )
   console.log(loadEnv(mode, process.cwd()))
   return {
-    base: VITE_USER_NODE_ENV === 'production' ? '//127.0.0.1:8082/' : './',
+    base: VITE_USER_NODE_ENV === 'production' ? '//ip:8082': '/',
     server: {
       port: 57013,
       cors: true,
