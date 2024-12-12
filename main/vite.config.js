@@ -9,7 +9,7 @@ export default defineConfig(({ mode }) => {
   const { VITE_BASE_URL } = loadEnv(mode, process.cwd())
 
   return {
-    base: './',
+    base: '/',
     server: {
       port: 57012,
       cors: true,
